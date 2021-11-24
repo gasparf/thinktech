@@ -10,6 +10,7 @@ const Button = ({
   text,
   fontSize,
   border,
+  onClick,
 }) => {
   return (
     <div
@@ -22,6 +23,7 @@ const Button = ({
         color: textColor,
         border: border,
       }}
+      onClick={onClick}
     >
       <span
         className="buttontext"
