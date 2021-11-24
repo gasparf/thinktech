@@ -16,7 +16,6 @@ const MortgageCalculatorContainer = ({ children }) => {
               marginBottom: "16px",
             }}
           >
-            {" "}
             Mortgage Calculator
           </div>
           <div>
