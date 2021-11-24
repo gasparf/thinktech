@@ -1,10 +1,27 @@
 import React from "react";
+import * as FaIcons from 'react-ions/fa';
+import { Link } from 'react-router-dom';
 
 
 
-const sideBar = () => {
-    return ( < img alt = "testing icon"
-        src = "https://i.picsum.photos/id/703/50/50.jpg?hmac=JQ5TMMUcJ7cUTgc7_GPt8sfLkiXC-iFpcEoZktg9Nzg" / > )
+function sideBar() {
+    
+    const [sidebar, setSidebar] = useState(false);
+
+    const showSidebar = () => setSidebar(!sidebar);
+
+    return (
+        <>
+        
+        <div className='navbar'>
+            <Link to='#' className='menu-bars'>
+                <FaIcons.FaBars onClick={showSidebar} />
+            </Link>
+        </div>
+        
+        
+        </>
+    )
 };
 
 export default sideBar;
