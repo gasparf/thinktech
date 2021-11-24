@@ -3,7 +3,7 @@ import "./MortgageCalculatorContainer.css";
 import SdgIcon from "../Images/sdg-icon.png";
 import Button from "../Components/Buttons/Button";
 
-const MortgageCalculatorContainer = ({ children }) => {
+const MortgageCalculatorContainer = ({ children, onClickCalculator }) => {
   return (
     <div className="mortgage-calculator-container">
       <div className="mortgage-calculator-card">
@@ -30,9 +30,7 @@ const MortgageCalculatorContainer = ({ children }) => {
             backgroundColor="#35FF9E"
             textColor="white"
             text="Mortgage GHG Calculator"
-            onClick={() => {
-              console.log("hi");
-            }}
+            onClick={onClickCalculator}
           />
         </div>
       </div>
