@@ -1,11 +1,11 @@
-import React from "react";
-import * as FaIcons from 'react-ions/fa';
+import React, { useState } from 'react';
+import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
 
-function sideBar() {
-    
+function NavBar() {
+
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar);
@@ -13,7 +13,7 @@ function sideBar() {
     return (
         <>
         
-        <div className='navbar'>
+        <div className='navBar'>
             <Link to='#' className='menu-bars'>
                 <FaIcons.FaBars onClick={showSidebar} />
             </Link>
@@ -24,4 +24,4 @@ function sideBar() {
     )
 };
 
-export default sideBar;
+export default NavBar;

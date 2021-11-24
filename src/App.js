@@ -1,16 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ReactDOM from 'react-dom';
 
 import FakeComponent from "./FakeComponent";
-import sideBar from "./navbar";
+import NavBar from "./NavBar";
 
 function App() {
     return ( 
     
-        < div className = "App" >
+        <div className = "App">
         <header className = "App-header" >
-            <sidebar />
+        
+            <NavBar />
             <img src = { logo } className = "App-logo" alt = "logo"/>
 
             <p> Edit <code> src /App.js </code> and save to reload. </p> 
@@ -20,6 +20,7 @@ function App() {
             </a> 
 
             <FakeComponent name = "Candy" colour = "red" />
+
 
         </header> 
         </div>
