@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { AiOutlineConsoleSql } from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { NavBarData } from './NavBarData';
-
-
+import './NavBar.css';
+import { IconContext } from 'react-icons';
 
 function NavBar() {
 
@@ -14,31 +14,32 @@ function NavBar() {
 
     return (
         <>
+        <IconContext.Provider value={{color: '#fff'}}> 
             <div className='navBar'>
                 <Link to="#" className='menu-bars'>
                     <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
             </div>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'} />
                 <ul className='nav-menu-items' onClick={showSidebar}>
                     <li className='navbar-toggle'>
-                        <AiOutlineConsoleSql.AiOutLineClose />
+                        <Link to="#" className='menu-bars'>
+                            <AiIcons.AiOutlineClose />
+                        </Link>
                     </li>
                     {NavBarData.map((item, index) => {
                         return (
-                            <li key={index} className={item.cName} >
+                            <li key={index} className={item.cName}>
                                 <Link to={item.path}>
                                     {item.icon}
-                                    <span> {item.title} </span>
+                                    <span>{item.title}</span> 
                                 </Link>
                             </li>
-                        );
+                        )
                     })}
                 </ul>
-            </nav>
+        </IconContext.Provider>
         </>
-        
-        
         
     )
 };
