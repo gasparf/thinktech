@@ -20,7 +20,7 @@ export const NavBarData = [
 
     {
         title: "Borrowing",
-        path: "Borrowing",
+        path: "/Borrowing",
         icon: <FaIcons.FaCartPlus />,
         cName: "nav-text"
     },
