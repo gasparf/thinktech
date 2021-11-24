@@ -5,7 +5,7 @@ import LearnMoreButton from "../Buttons/LearnMoreButton";
 
 const Card = ({ title, text, height, width, onApply, onLearnMore }) => {
   return (
-    <div className="card-container" style={{ height: height, width: width }}>
+    <div className="card" style={{ height: height, width: width }}>
       <div className="card-title">{title}</div>
       <div className="card-text">{text}</div>
       <div className="card-buttons">
