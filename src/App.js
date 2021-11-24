@@ -18,6 +18,10 @@ function App() {
             <Route path="/accounts" exact element={<Accounts />} />
             <Route path="/borrowing" exact element={<MortgageLoans />} />
           </Routes>
+
+            
+
+
         </div>
       </Router>
     </>
