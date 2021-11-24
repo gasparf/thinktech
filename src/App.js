@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import Home from "./testPages/Home";
 import Accounts from "./testPages/Accounts";
-import Borrowing from "./testPages/Borrowing";
 import MortgageLoans from "./MortgageLoans/MortgageLoans";
 
 function App() {
