@@ -12,12 +12,17 @@ function App() {
     return ( 
         <>
         <Router>
+            <div className='App'>
                 <NavBar/>
                 <Routes>
                     <Route path="/" exact element={<Home />}/>
                     <Route path="/accounts" exact element={<Accounts />}/>
                     <Route path="/borrowing" exact element={<Borrowing />}/>
                 </Routes>
+                
+
+            </div>
+                
                 
 
         </Router>
