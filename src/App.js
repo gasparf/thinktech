@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./Components/NavBar";
-import Home from "./testPages/Home";
+import Home from "./Home/Home";
 import Accounts from "./testPages/Accounts";
 import MortgageLoans from "./MortgageLoans/MortgageLoans";
 

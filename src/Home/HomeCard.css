@@ -1,0 +1,10 @@
+.homecard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.homecard-title {
+    margin-top: 12px;
+}
