@@ -1,0 +1,17 @@
+.button {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+}
+
+.button:hover {
+  opacity: 50%;
+}
+
+.button-text {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+}
