@@ -1,0 +1,29 @@
+.mortgage-calculator-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mortgage-calculator-card {
+  border-radius: 12px;
+  width: 1266px;
+  height: 214px;
+  background-color: white;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 38px;
+  margin-right: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mortgage-calculator-text {
+  text-align: left;
+}
+
+.sdg-icon {
+  height: 225px;
+  width: 225px;
+}
