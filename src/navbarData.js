@@ -5,24 +5,24 @@ import * as IoIcons from 'react-icons/io';
 
 export const NavBarData = [
     {
-        title: 'Home',
-        path: '/',
+        title: "Home",
+        path: "/",
         icon: <AiIcons.AiFillHome />,
-        cName: 'nav-text'
+        cName: "nav-text"
     },
 
     {
-        title: 'Reports',
-        path: '/reports',
+        title: "Reports",
+        path: "/",
         icon: <IoIcons.IoIosPaper />,
-        cName: 'nav-text'
+        cName: "nav-text"
     },
 
     {
-        title: 'Products',
-        path: '/prodcuts',
+        title: "Borrowing",
+        path: "Borrowing",
         icon: <FaIcons.FaCartPlus />,
-        cName: 'nav-text'
+        cName: "nav-text"
     },
 
 ];

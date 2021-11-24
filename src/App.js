@@ -5,6 +5,9 @@ import "./App.css";
 import FakeComponent from "./FakeComponent";
 import NavBar from "./NavBar";
 
+import Borrowing from "./Borrowing";
+
+import {BrowserRouter as Route, Router, Routes} from "react-router-dom";
 
 
 function App() {
@@ -14,6 +17,10 @@ function App() {
             <div className = "App">
 
                 <NavBar />
+                <Routes>
+                    <Route path="/Borrowing" element={<Borrowing />}/>
+                </Routes>
+                
 
                 <header className = "App-header" >
                     
@@ -32,7 +39,6 @@ function App() {
             </div>
         </Router>
            
-        
         </>
          
        
