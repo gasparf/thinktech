@@ -1,10 +1,11 @@
+import React from 'react';
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import Home from "./testPages/Home";
-import Random from "./testPages/Random";
+import Accounts from "./testPages/Accounts";
 import Borrowing from "./testPages/Borrowing";
 
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
         <Router>
                 <NavBar/>
                 <Routes>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/random" exact component={Random}/>
-                    <Route path="/borrowing" exact component={Borrowing}/>
+                    <Route path="/" exact element={<Home />}/>
+                    <Route path="/accounts" exact element={<Accounts />}/>
+                    <Route path="/borrowing" exact element={<Borrowing />}/>
                 </Routes>
                 
 

@@ -12,9 +12,23 @@ export const NavBarData = [
     },
 
     {
-        title: 'Random',
-        path: '/random',
+        title: 'Accounts',
+        path: '/accounts',
         icon: <IoIcons.IoIosPaper />,
+        cName: "nav-text"
+    },
+
+    {
+        title: 'Transactions',
+        path: '/transactions',
+        icon: <AiIcons.AiOutlineCreditCard />,
+        cName: "nav-text"
+    },
+
+    {
+        title: 'Investments',
+        path: '/invesetments',
+        icon: <AiIcons.AiOutlineBarChart/>,
         cName: "nav-text"
     },
 
@@ -22,6 +36,20 @@ export const NavBarData = [
         title: 'Borrowing',
         path: '/borrowing',
         icon: <FaIcons.FaCartPlus />,
+        cName: "nav-text"
+    },
+
+    {
+        title: 'Help',
+        path: '/help',
+        icon: <AiIcons.AiFillQuestionCircle />,
+        cName: "nav-text"
+    },
+
+    {
+        title: 'LogOut',
+        path: '/logout',
+        icon: <IoIcons.IoIosExit/>,
         cName: "nav-text"
     },
 

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Random() {
+function Accounts() {
     return (
-        <div className='random'>
+        <div className='accounts'>
             <h1> Fill </h1>
         </div>
     )
 }
 
-export default Random
+export default Accounts
