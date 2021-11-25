@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import "./Home.css";
 import Graph from "../HomeGraph/Graph";
-import Table from "../HomeTable/Table";
+import DataTable from "../HomeTable/DataTable";
 
 
 const Home = () => {
@@ -10,12 +10,18 @@ const Home = () => {
             
 
             {/* add seperate div for the top row? */}
+            <div className='rowContainer'>
+                <div className='row'>
+                    <Graph/>
 
-            <Graph/>
-            
-            <div className='bottomRow'>
-                <Table />
-            </div>    
+                </div>
+                
+                <div className='row'>
+                    <DataTable />
+
+                </div>
+            </div>
+
         
         
         </div>
