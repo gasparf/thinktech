@@ -8,7 +8,7 @@ function Graph() {
 
     return (
         <div className='graph'>
-            <h3 className='graph-title'>Spending</h3>
+            <h3 className='graph-title'>October Spendings</h3>
             <ResponsiveContainer width='100%' aspect={4/1}>
                 <LineChart data={Data}>
                     <XAxis dataKey="date" fontSize='10px' />
