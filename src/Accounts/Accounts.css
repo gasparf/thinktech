@@ -1,0 +1,35 @@
+.accounts-container {
+  height: 294px;
+  width: 270px;
+  background-color: white;
+  border-radius: 15px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.accounts {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.accounts-logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin: 8px 10px;
+}
+
+.accounts-accounts {
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.accounts-checkbox {
+  margin: 8px 10px;
+}
