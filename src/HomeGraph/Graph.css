@@ -1,0 +1,19 @@
+.graph {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 60%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.graph-title {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ctrl {
+    font-size: '1px';
+}
+

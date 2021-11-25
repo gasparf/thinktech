@@ -1,33 +1,17 @@
 import React, {useState} from 'react';
-import CardContainer from "../Components/CardContainer/CardContainer";
 import "./Home.css";
+import Graph from "../HomeGraph/Graph";
+
 
 const Home = () => {
     return (
-        <>
-            <div className='homecontainer'>
-
-                </div>
-
-                <div className='dashboardgraph'>
-                    
-                </div>
-
-
-                <div className='dashboardaccounts'> 
-
-                </div>
-
-                <div className='dashboardtransactions'>
-
-
-                <div className='dashboardcharts'> 
-                            
-                </div>
-            </div>
+        <div className='home'>
+            
+                <Graph/>
+                
         
         
-        </>
+        </div>
 
 
 
