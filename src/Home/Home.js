@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <div style={{ display: "flex" }}>
       <div className="home">
-        {/* add seperate div for the top row? */}
         <div className="rowContainer">
           <div className="row">
             <Graph />
