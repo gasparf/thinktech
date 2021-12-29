@@ -19,7 +19,7 @@ const MortgageCalculatorContainer = ({ children, onClickCalculator }) => {
             Mortgage Calculator
           </div>
           <div>
-            Try out Vancity's new GHG Mortgage Calculator to make an ecofriendly
+            Try out our new GHG Mortgage Calculator to make an ecofriendly
             choice towards home ownership.
           </div>
           <div style={{ marginBottom: "16px" }}>Zero Emissions by 2040</div>

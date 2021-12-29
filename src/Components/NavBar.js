@@ -22,7 +22,7 @@ function NavBar() {
           </Link>
 
           <div className="logo">
-            <img className="logoImg" alt="vancitylogo" src={Vancitylogo} />
+            {/* <img className="logoImg" alt="vancitylogo" src={Vancitylogo} /> */}
           </div>
 
           <table className="accIconContainer">
